@@ -48,7 +48,7 @@ const Filters = () => {
     <div className="w-full py-4 relative">
       {/* Left scroll button outside the container (hidden on small screens) */}
       <button
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white rounded-full px-4 py-2 z-10 hover:bg-blue-600 transition md:block hidden"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2  text-black rounded-full px-4 py-2 z-10 hover:bg-gray-100 transition md:block hidden"
         onClick={scrollLeft}
       >
         &lt;
@@ -71,7 +71,7 @@ const Filters = () => {
 
       {/* Right scroll button outside the container (hidden on small screens) */}
       <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white rounded-full px-4 py-2 z-10 hover:bg-blue-600 transition md:block hidden"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2  text-black rounded-full px-4 py-2 z-10 hover:bg-gray-100 transition md:block hidden"
         onClick={scrollRight}
       >
         &gt;
