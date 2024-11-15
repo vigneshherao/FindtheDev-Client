@@ -59,22 +59,34 @@ const NavBar = () => {
         </div>
         <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a
+              class="text-sm text-blue-500 font-bold  hover:text-gray-500"
+              href="#"
+            >
               Home
             </a>
           </li>
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a
+              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              href="#"
+            >
               Explore
             </a>
           </li>
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a
+              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              href="#"
+            >
               Matches
             </a>
           </li>
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a
+              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              href="#"
+            >
               Messages
             </a>
           </li>
