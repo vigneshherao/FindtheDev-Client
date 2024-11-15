@@ -60,7 +60,7 @@ const NavBar = () => {
         <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li>
             <a
-              class="text-sm text-blue-500 font-bold  hover:text-gray-500"
+              class="text-sm text-gray-600 font-bold  hover:text-gray-500"
               href="#"
             >
               Home
@@ -68,7 +68,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              class="text-sm text-gray-600 font-bold hover:text-gray-500"
               href="#"
             >
               Explore
@@ -76,7 +76,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              class="text-sm text-gray-600 font-bold hover:text-gray-500"
               href="#"
             >
               Matches
@@ -84,7 +84,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-blue-500 font-bold hover:text-gray-500"
+              class="text-sm text-gray-600 font-bold hover:text-gray-500"
               href="#"
             >
               Messages
