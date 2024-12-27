@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({ setIsSignUp }) => {
   document.addEventListener("DOMContentLoaded", function () {
     // open
     const burger = document.querySelectorAll(".navbar-burger");
@@ -60,7 +60,7 @@ const NavBar = () => {
         <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li>
             <a
-              class="text-sm text-gray-600 font-bold  hover:text-gray-500"
+              class=" lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
               href="#"
             >
               Home
@@ -68,7 +68,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-gray-600 font-bold hover:text-gray-500"
+              class=" lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
               href="#"
             >
               Explore
@@ -76,7 +76,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-gray-600 font-bold hover:text-gray-500"
+              class=" lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
               href="#"
             >
               Matches
@@ -84,7 +84,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              class="text-sm text-gray-600 font-bold hover:text-gray-500"
+              class=" lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
               href="#"
             >
               Messages
@@ -179,15 +179,12 @@ const NavBar = () => {
           </div>
           <div class="mt-auto">
             <div class="pt-6">
-              <a
-                class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl"
-                href="#"
-              >
+              <a class="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl">
                 Sign in
               </a>
               <a
                 class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl"
-                href="#"
+                onClick={setIsSignUp(true)}
               >
                 Sign Up
               </a>
