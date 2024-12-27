@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 
-const SignUp = () => {
+const SignIn = () => {
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
   const nameRef = useRef(null);
@@ -64,4 +64,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;

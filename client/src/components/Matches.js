@@ -8,13 +8,13 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import slide_image_1 from "./assets/img_1.jpg";
-import slide_image_2 from "./assets/img_2.jpg";
-import slide_image_3 from "./assets/img_3.jpg";
-import slide_image_4 from "./assets/img_4.jpg";
-import slide_image_5 from "./assets/img_5.jpg";
-import slide_image_6 from "./assets/img_6.jpg";
-import slide_image_7 from "./assets/img_7.jpg";
+import slide_image_1 from "../assets/img_1.jpg";
+import slide_image_2 from "../assets/img_2.jpg";
+import slide_image_3 from "../assets/img_3.jpg";
+import slide_image_4 from "../assets/img_4.jpg";
+import slide_image_5 from "../assets/img_5.jpg";
+import slide_image_6 from "../assets/img_6.jpg";
+import slide_image_7 from "../assets/img_7.jpg";
 
 function App() {
   return (
