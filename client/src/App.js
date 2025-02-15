@@ -4,10 +4,12 @@ import Feeds from "./components/Feeds";
 import Body from "./components/Body";
 import Matches from "./components/Matches";
 import Inbox from "./components/MessageBox";
+import SignUp from "./components/SignUp";
+import Interest from "./components/Interest";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-white to-gray-200 min-h-screen">
+    <div className="bg-gradient-to-b from-white to-gray-200">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Body />}>
@@ -17,6 +19,8 @@ function App() {
             <Route path="/inbox" element={<Inbox />} />
           </Route>
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/interest" element={<Interest />} />
         </Routes>
       </BrowserRouter>
     </div>
